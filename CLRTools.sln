@@ -5,6 +5,20 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMover", "MouseMover\MouseMover.csproj", "{4C645DF3-D6E4-42B5-94D2-3C15D158DBF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{F55ECDC5-8510-40B7-A95F-880BEC120C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerShell Scripts", "PowerShell Scripts", "{C0F6CEFB-7828-4C89-9B05-6D91B8E5CAA8}"
+	ProjectSection(SolutionItems) = preProject
+		DownloadPlaylist.ps1 = DownloadPlaylist.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YT", "YT", "{FD86621B-B5DD-4F8F-B3FD-6403E9D60907}"
+	ProjectSection(SolutionItems) = preProject
+		Playlists.txt = Playlists.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrefExtruder", "HrefExtruder\HrefExtruder.csproj", "{0C2C26BF-F83B-44AC-8561-6373997AB52F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +29,20 @@ Global
 		{4C645DF3-D6E4-42B5-94D2-3C15D158DBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C645DF3-D6E4-42B5-94D2-3C15D158DBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C645DF3-D6E4-42B5-94D2-3C15D158DBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55ECDC5-8510-40B7-A95F-880BEC120C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55ECDC5-8510-40B7-A95F-880BEC120C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55ECDC5-8510-40B7-A95F-880BEC120C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55ECDC5-8510-40B7-A95F-880BEC120C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2C26BF-F83B-44AC-8561-6373997AB52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2C26BF-F83B-44AC-8561-6373997AB52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2C26BF-F83B-44AC-8561-6373997AB52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2C26BF-F83B-44AC-8561-6373997AB52F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD86621B-B5DD-4F8F-B3FD-6403E9D60907} = {C0F6CEFB-7828-4C89-9B05-6D91B8E5CAA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {787A1066-6CC0-4C5C-8B8B-3D0A743B04BA}

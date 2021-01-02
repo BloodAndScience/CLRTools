@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bOdjc7NdfCyvliSXRJ4Kc/vCm1+4W9QaUBSjy77rmTiGRRzvqoE/naHBR+iTLAsQ0coqi/4WVfcp5CcWIIvyxg==",
+  "success": true,
+  "projectFilePath": "B:\\Git\\CLRTools\\HrefExtruder\\HrefExtruder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\htmlagilitypack\\1.11.29\\htmlagilitypack.1.11.29.nupkg.sha512"
+  ],
+  "logs": []
+}

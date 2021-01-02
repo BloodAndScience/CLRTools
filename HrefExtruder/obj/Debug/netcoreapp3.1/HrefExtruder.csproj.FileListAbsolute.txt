@@ -1,0 +1,4 @@
+B:\Git\CLRTools\HrefExtruder\bin\Debug\netcoreapp3.1\HrefExtruder.exe
+B:\Git\CLRTools\HrefExtruder\obj\Debug\netcoreapp3.1\HrefExtruder.csprojAssemblyReference.cache
+B:\Git\CLRTools\HrefExtruder\obj\Debug\netcoreapp3.1\HrefExtruder.AssemblyInfoInputs.cache
+B:\Git\CLRTools\HrefExtruder\obj\Debug\netcoreapp3.1\HrefExtruder.AssemblyInfo.cs
