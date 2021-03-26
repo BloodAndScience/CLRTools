@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HrefExtruder": {
+      "commandName": "Project",
+      "commandLineArgs": "\"B:\\Lib\\Proj\\CLRTools\\Resources\\UnityPlaylists.html\""
+    }
+  }
+}
