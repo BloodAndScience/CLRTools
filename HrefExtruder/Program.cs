@@ -21,8 +21,7 @@ namespace HrefExtruder
                 string[] hrefs = ExtractHref(doc);
                 foreach (var href in hrefs)
                 {
-                    
-                Console.WriteLine(href);
+                    Console.WriteLine(href);
                 }
 
                 Console.WriteLine($"Success found {hrefs.Length} hrefs");
