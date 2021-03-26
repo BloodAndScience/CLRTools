@@ -19,6 +19,8 @@ namespace HrefExtruder
                     doc.Load(file);
                 }
                 string[] hrefs = ExtractHref(doc);
+                hrefs = CleanList(hrefs, @"https://www.youtube.com/playlist?list=");
+
                 foreach (var href in hrefs)
                 {
                     Console.WriteLine(href);
@@ -33,6 +35,28 @@ namespace HrefExtruder
                 Console.WriteLine(@"HrevExtruder B:\Lib\Proj\CLRTools\Resources\UnityPlaylists.html");
             }
             Console.ReadKey();
+        }
+
+        private static string[] CleanList(string[] hrefs, string pattern)
+        {
+
+            List<string> result = new List<string>(8);
+            foreach (var href in hrefs)
+            {
+                if (href.Contains(pattern))
+                {
+                    string id = href.Remove(0, pattern.Length);
+
+                    if (id.Length > 5&&!result.Contains(id))
+                    {
+
+                        result.Add(id);
+                    }
+                }
+
+            }
+
+            return result.ToArray();
         }
 
         static string[] ExtractHref( HtmlDocument doc)
