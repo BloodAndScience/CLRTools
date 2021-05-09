@@ -1,0 +1,16 @@
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\Timer.exe
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\Timer.deps.json
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\Timer.runtimeconfig.json
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\Timer.runtimeconfig.dev.json
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\Timer.dll
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\ref\Timer.dll
+B:\Lib\Proj\Tools\CLR\Timer\bin\Debug\net5.0\Timer.pdb
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.csprojAssemblyReference.cache
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.GeneratedMSBuildEditorConfig.editorconfig
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.AssemblyInfoInputs.cache
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.AssemblyInfo.cs
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.csproj.CoreCompileInputs.cache
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.dll
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\ref\Timer.dll
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.pdb
+B:\Lib\Proj\Tools\CLR\Timer\obj\Debug\net5.0\Timer.genruntimeconfig.cache
